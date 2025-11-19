@@ -97,7 +97,6 @@ int main() {
     cout << "Быстрая сортировка: ";
     for (int num : quickSorted) cout << num << " ";
     cout << endl;
-
     vector<int> mergeSorted = mergeSort(arr);
     cout << "Сортировка слиянием: ";
     for (int num : mergeSorted) cout << num << " ";
